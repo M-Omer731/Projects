@@ -1,42 +1,50 @@
-# Projects
+# Python Foundations
 
-A collection of Python learning projects covering basic programming concepts,
-file handling, and mathematical calculations.
+An archive of introductory Python exercises I completed while learning core programming concepts. This repository intentionally preserves the original programs so that my growth as a developer remains visible alongside my newer work.
+
+## What I Practiced
+
+- Variables, arithmetic, and formatted output
+- Conditional logic and nested loops
+- Functions and basic program decomposition
+- User input and validation
+- Reading from and writing to text files
+- Translating written requirements into working programs
 
 ## Programs
 
-### 1. 20 Employee Salary Calculator
-**File:** `20 Employee Salary Calculator.py`  
-Calculates gross salary, tax, and net salary for 20 employees based on weekly
-hours and hourly rate. Applies a 33% tax if gross salary exceeds $2500,
-otherwise applies a 24% tax. Uses file handling to store and process data.
+| Program | Concepts explored |
+| --- | --- |
+| [Employee Salary Calculator](./20%20Employee%20Salary%20Calculator.py) | Functions, file handling, salary and tax calculations |
+| [Quadratic Equation Solver](./Calculate%20Solution%20of%20Quatdratic%20Equation.py) | Mathematical expressions and roots |
+| [Compound Interest Calculator](./Compound%20Interst%20Pyhton%20Script.py) | Numeric input, formulas, and formatted results |
+| [Rainfall Program](./Rainfall%20Program.py) | Nested loops, totals, and averages |
+| [Savings Account Balance](./Savings%20Acc%20Balance.py) | Repeated transactions, validation, and accumulated values |
+| [Stockbroker Profit or Loss](./Stockbroker%20Profit%20or%20Loss%20program.py) | Financial calculations and conditional results |
+| [Vacation and Flight Calculator](./Vacation%20and%20flight%20calculation%20simulator.py) | Functions, branching, and user-driven calculations |
 
-### 2. Quadratic Equation Solver
-**File:** `Calculate Solution of Quadratic Equation.py`  
-Solves a quadratic equation using the quadratic formula and displays the
-real or complex roots based on the discriminant.
+## Running a Program
 
-### 3. Compound Interest Calculator
-**File:** `Compound Interest Python Script.py`  
-Calculates compound interest based on principal, rate, time, and compounding
-frequency.
+Install Python 3, clone this repository, and run any exercise from a terminal. For example:
 
-### 4. Rainfall Program
-**File:** `Rainfall Program.py`  
-Accepts rainfall data, calculates total and average rainfall, and displays
-the results.
+```powershell
+python "Rainfall Program.py"
+```
 
-### 5. Savings Account Balance
-**File:** `Savings Acc Balance.py`  
-Simulates a savings account by calculating balance updates based on deposits,
-withdrawals, and interest.
+Each program is interactive and will prompt for the values it needs.
 
-### 6. Stockbroker Profit or Loss
-**File:** `Stockbroker Profit or Loss program.py`  
-Calculates profit or loss from stock transactions based on buying and selling
-prices.
+## What I Would Improve Today
 
-### 7. Vacation and Flight Calculator
-**File:** `Vacation and flight calculation simulator.py`  
-Estimates vacation and flight costs based on user input and displays the total
-cost.
+These programs represent an early stage of my development and are kept substantially unchanged. If rebuilding them now, I would:
+
+- Separate calculation logic from terminal input and output.
+- Add stronger validation and useful error messages.
+- Add automated tests for normal, boundary, and invalid inputs.
+- Use `decimal.Decimal` for currency calculations.
+- Use Python's `csv` and `pathlib` modules for file operations.
+- Handle invalid quadratic equations and complex roots explicitly.
+- Apply consistent naming, formatting, and module entry points.
+
+## Status
+
+This repository is a historical learning archive rather than an actively developed application. My current portfolio projects focus on AI/ML engineering, full-stack systems, and C++ development.
